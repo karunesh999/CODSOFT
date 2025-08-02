@@ -8,20 +8,20 @@ public class BankAccount {
     public void deposit(double amount) {
         if (amount > 0) {
             balance += amount;
-            System.out.println("✅ Deposited: ₹" + amount);
+            System.out.println(" Deposited: ₹" + amount);
         } else {
-            System.out.println("❌ Invalid deposit amount.");
+            System.out.println(" Invalid deposit amount.");
         }
     }
 
     public void withdraw(double amount) {
         if (amount > balance) {
-            System.out.println("❌ Insufficient balance.");
+            System.out.println(" Insufficient balance.");
         } else if (amount <= 0) {
-            System.out.println("❌ Invalid withdrawal amount.");
+            System.out.println(" Invalid withdrawal amount.");
         } else {
             balance -= amount;
-            System.out.println("✅ Withdrawn: ₹" + amount);
+            System.out.println(" Withdrawn: ₹" + amount);
         }
     }
 
