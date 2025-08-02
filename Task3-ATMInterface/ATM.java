@@ -35,7 +35,7 @@ public class ATM {
                     sc.close();
                     return;
                 default:
-                    System.out.println("❌ Invalid choice. Try again.");
+                    System.out.println(" Invalid choice. Try again.");
             }
         }
     }
