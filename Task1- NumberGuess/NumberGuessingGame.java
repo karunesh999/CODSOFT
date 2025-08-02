@@ -25,7 +25,7 @@ public class NumberGuessingGame {
                 attempts++;
 
                 if (guess == target) {
-                    System.out.println("🎉 Correct! You guessed it in " + attempts + " attempt(s).");
+                    System.out.println(" Correct! You guessed it in " + attempts + " attempt(s).");
                     score++;
                     guessed = true;
                     break;
